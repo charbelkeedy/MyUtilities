@@ -1,0 +1,13 @@
+jQuery(document).ready(function() {
+var aList = document.getElementsByTagName("a");
+for (var i = 0, len = aList.length; i < len; i++)
+    {
+        if(aList[i].textContent == "اخبار ثانوية")
+		{console.log(aList[i])
+		aList[i].style.display = "none"
+		}
+        
+    }
+	
+	
+});
